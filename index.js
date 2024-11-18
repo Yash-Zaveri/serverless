@@ -43,7 +43,7 @@ exports.handler = async (event) => {
         to: email,
         from: `noreply@${baseURL}`,
         subject: "CSYE6225 Webapp - Verify Your Email",
-        html: `<p>Dear User,<br>Please verify your email by <a href="${verificationLink}">clicking here</a>. This link expires in 2 minutes.<br><br>Thanks, <br>Chaitya Vohera</p>`,
+        html: `<p>Dear User,<br>Please verify your email by <a href="${verificationLink}">clicking here</a>. This link expires in 2 minutes.<br><br>Thanks, <br>Yash Zaveri</p>`,
       };
       logger.info(`Prepared email to send to ${email}`);
 
